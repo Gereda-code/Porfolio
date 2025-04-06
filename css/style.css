@@ -1,0 +1,40 @@
+.nav-header {
+    height: 50px;
+    width: 100%;
+}
+
+.nav-header ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-header ul li {
+    margin: 15px;
+}
+
+.home {
+    font-size: 16pt;
+    font-weight: 900;
+    color: #007bff;
+}
+
+.modules{
+    font-weight: bold;
+}
+/* ====================Social==================== */
+.socials a {
+    text-decoration: none;
+    color: #fff;
+    justify-content: center;
+}
+
+.socials ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    transition: .3s ease;
+}
+/* .about-container {
+    border-radius: 10px;
+} */

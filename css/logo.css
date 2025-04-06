@@ -1,0 +1,58 @@
+.logo {
+    border: 1px solid teal;
+    border-radius: 5px;
+    color: #007bff;
+    transform: translateY(0px);
+    width: 300px;
+    justify-items: center;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 8px;
+    box-shadow: rgb(160, 169, 196) 5px 5px 0 0;
+    font-weight: 700;
+
+}
+
+@media (max-width:390px) {
+    .logo {
+        width: 150px;
+        font-size: 25px;
+        margin-top: 2px;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: none;
+    }
+    .home {
+        font-size: 10px;
+        font-weight: 100px;
+    }
+}
+
+@media (max-width: 420px) {
+    .logo {
+        width: 150px;
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: none;
+    }
+    .home {
+        font-size: 10px;
+        font-weight: 200px;
+    }
+}
+
+@media (max-width: 435px) {
+    .logo {
+        width: 150px;
+        font-size: 25px;
+        text-decoration: none;
+        text-align: center;
+        box-shadow: none;
+    }
+    .home {
+        font-size: 10px;
+        font-weight: 200px;
+    }
+}
